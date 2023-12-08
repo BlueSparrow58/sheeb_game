@@ -1,0 +1,49 @@
+body {
+    background-image: url("grass.png");
+    background-repeat: repeat;
+    height: 100px;
+}
+
+#title {
+    color: rgb(81, 80, 80);
+    text-align: center;
+    font-family: cursive;
+}
+
+#happy {
+    color: rgb(246, 246, 29);
+    text-align: center;
+    font-family: cursive;
+}
+
+#instructions {
+    color: rgb(109, 107, 107);
+    font-family: cursive;
+    float:right;
+    padding-right: 1em;
+}
+
+#instructions p{
+    font-size: 150%;
+    inline-size: 200px; 
+}
+
+#sheeb {
+    position: fixed;
+    z-index: 1000;
+}
+
+#sheeb img{
+    width: 8em;
+}
+
+#cake {
+    position: fixed;
+    z-index: 900;
+    left: 600px;
+    top: 600px;
+}
+
+#cake img{
+    width: 16em;
+}
